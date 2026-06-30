@@ -79,3 +79,110 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+---
+
+## Additional Personas (proposed)
+
+### Delivery Lead
+Role summary:
+Delivery Leads focus on day-to-day coordination of a delivery stream (one or more related features or projects).
+
+Responsibilities:
+- Coordinate work across feature teams to ensure milestones are met
+- Maintain the delivery schedule and highlight risks to the PM
+- Facilitate cross-team backlog grooming and unblock dependencies
+- Track progress against milestones and update risk register as needed
+
+Interactions:
+- Works closely with the PM for prioritization and with Project Managers for status reporting
+- Escalates cross-team blockers to Product Lead or Sponsor when needed
+- Partners with Technical Program Managers and Developers to align deliveries
+
+---
+
+### Technical Program Manager (TPM)
+Role summary:
+TPMs manage technically complex initiatives, owning technical dependencies, integration points, and release coordination.
+
+Responsibilities:
+- Track technical dependencies and integration timelines across teams
+- Coordinate architecture decisions and design reviews with engineering leads
+- Drive end-to-end planning for multi-team technical deliverables
+- Maintain an integration and cutover plan for complex releases
+
+Interactions:
+- Partners with Developers, Engineering Leads, and Project Managers to align schedules and mitigations
+- Works with DevOps/SRE to coordinate deployments, runbooks, and rollbacks
+- Communicates technical risk and mitigation strategies to Product and Project leadership
+
+---
+
+### DevOps / SRE Representative
+Role summary:
+Operational ownership for deployments, observability, and runbook readiness.
+
+Responsibilities:
+- Ensure CI/CD pipelines and infra configuration meet release needs
+- Define rollout and rollback procedures; own post-deploy verification
+- Surface operational risks and performance constraints early in planning
+- Ensure monitoring, alerts, and runbooks are in place before release
+
+Interactions:
+- Collaborates with Developers, TPMs, and PMs on release readiness
+- Coordinates with on-call and support teams for incident preparedness
+- Advises on deployment strategy (canary, blue/green, feature flags)
+
+---
+
+### UX Researcher / Designer
+Role summary:
+Provides user insights, validates designs, and ensures product usability.
+
+Responsibilities:
+- Conduct user research and usability testing for features
+- Produce design artifacts and acceptance criteria related to UX
+- Validate that implementations match design intent
+- Provide accessibility guidance and UX acceptance checks
+
+Interactions:
+- Works with Product Managers to define success metrics and acceptance criteria
+- Collaborates with Developers and QA to ensure design fidelity in implementation
+- Participates in demos and usability reviews before release
+
+---
+
+### Business Analyst / Data Analyst
+Role summary:
+Bridges product and data, ensuring clear requirements and measurable success metrics.
+
+Responsibilities:
+- Define detailed acceptance criteria and data requirements
+- Produce measurement plans and dashboards to track success metrics
+- Support post-release analysis and recommendations
+- Ensure instrumentation and analytics are in place for feature validation
+
+Interactions:
+- Works with PMs to translate goals into measurable metrics
+- Partners with Developers/QA on instrumentation requirements
+- Provides analysis to Product and leadership to guide next steps
+
+---
+
+### Stakeholder Advocate
+Role summary:
+A named stakeholder liaison for large, cross-organizational initiatives.
+
+Responsibilities:
+- Maintain stakeholder communication and decisions log
+- Represent stakeholder constraints/requirements in planning
+- Drive alignment across business units when conflicts arise
+- Ensure stakeholder concerns are surfaced in risk and decision logs
+
+Interactions:
+- Regular sync with PM and Project Manager for status and decisions
+- Escalates strategic issues to Product Lead or Sponsor
+- Coordinates stakeholder input into acceptance criteria and release plans
+
+---
+
+(End of file)
